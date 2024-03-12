@@ -3,7 +3,7 @@ Implementation of local open source LLMs using Python
 
 ### ollama-rag/
 
-Contains code from the rag example in the ollama git repository.
+Contains code from the rag example in the ollama git repository https://github.com/ollama/ollama/blob/main/examples/langchain-python-rag-document/main.py.
 
 ### my_ollama-rag.py
 
@@ -23,8 +23,10 @@ And then pull the llama2 model, and run it from the terminal using
 
 `ollama run llama2`
 
+After that, just run `python my_ollama-rag.py`, and ask a question about the paper!
+
 **This is a very rough prototype, as is this README. I plan on improving this code by a lot. Some improvements i'm planning**
- 
+
 - How he reads the PDF, how can i extract maybe specific info from it. 
 - How to use more than one PDF on RAG
 - How to use chain prompting
